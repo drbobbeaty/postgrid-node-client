@@ -127,6 +127,7 @@ export class LetterApi {
     metadata?: any;
     express?: boolean;
     extraService?: string;
+    serviceType?: string;
   }, options?: {
     idempotencyKey?: string;
   }): Promise<{
